@@ -36,7 +36,7 @@ def calculate_duty(import_value: int, goods_group: str):
     # Розрахунок мита
     duty = import_value * rate
     return duty
-
+# Функція для тестування розрахунку мита
 # Основна програма
 if __name__ == "__main__":
     try:
